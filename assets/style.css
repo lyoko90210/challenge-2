@@ -1,0 +1,137 @@
+html{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+
+}
+
+.header{
+    
+text-align: center;
+display: inline block;
+
+
+}
+
+
+h1{
+    text-align: center;
+    font-family: "Honk", system-ui, sans-serif ;
+    font-size: 150px;
+}
+
+a{
+  border: 6px solid wheat;
+  font-size: 20px;
+  padding: 10px;
+  display: inline-block;
+  color: rgba(24, 119, 221, 0.611);
+  margin: 100px;
+  
+} 
+
+h2{
+    border: 9px  blue; 
+    font-size: 30PX;
+    margin-top: 60PX; 
+    content: 20px   ;
+    text-align: center;
+}
+
+.about{ 
+    padding: 30px;
+    border: 9px dashed ;
+
+} 
+
+#my{
+    text-align: start;
+}
+
+.projects{
+    margin-top: 20px;
+    border: 9px dashed ;
+} 
+
+.Contact{
+    margin-top: 20px;
+    border: 9px dashed ;
+}
+
+
+
+.pic1 {
+    background-image: url("categoria_piedi.jpg");
+    padding: 8%; 
+    background-repeat: no-repeat;
+    background-size: contain,cover;
+    margin: 8%;
+    max-width: 22%;
+   height: auto;
+
+    
+}
+.pic2 { 
+    background-image: url("Mostafa-Egypt-uai-600x450.png");
+   padding: 11%;
+   background-repeat:no-repeat ;
+   background-size:contain,cover ; 
+   max-width: 18%;
+   height: auto;
+}
+
+
+
+.pic3{
+    background-image: url("Phases-of-prosthetic-care-1024x682.jpg");
+    padding: 7%;
+    background-repeat: no-repeat;
+    background-size:contain,cover ;
+    max-width: 24%;
+    height: auto;
+}
+.footert{
+    border: 9px solid white;
+    margin: 20px;
+}
+
+.about p{
+    margin: 50px;
+    text-size-adjust: 150%;
+    
+}
+
+.about, .Contact, .projects {
+    display: flex;
+    flex-direction: row;
+}
+
+.about h2, .Contact h2, .projects h2{
+    padding: 30px;
+    border-right: 3px solid white;
+}
+
+.contact-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 82%;
+    margin-top: 75px; 
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(19, 79, 201); 
+      
+
+    }
+  } 
+
+.pic1, .pic2, .pic3 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.pic1:hover, .pic2:hover, .pic3:hover {
+    transform: scale(1.1);
+}
+
